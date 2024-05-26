@@ -59,7 +59,7 @@ def openImg():
 
 app = tk.Tk()
 app.title("Image to ASCII Converter")
-app.geometry("1000x700")
+app.geometry("1200x800")
 frame = tk.Frame(app)
 frame.pack(padx=10, pady=10, expand=True, fill='both')
 open_button = tk.Button(frame, text="Open Image", command=openImg)
